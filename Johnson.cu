@@ -2,7 +2,7 @@
 #ifndef __CUDACC__ 
 #define __CUDACC__
 #endif
-#define siktiret __syncthreads()
+
 #include "cuda_runtime.h"
 #include "device_launch_parameters.h"
 #include <cuda.h>
